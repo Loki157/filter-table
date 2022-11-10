@@ -1,16 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      table,
+      tr,
+      th,
+      tbody {
+        border: 2px solid;
+      }
+      .inp {
+        width: 80%;
+        padding: 10px;
+      }
+    </style>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
   </head>
   <body>
+    <input
+      type="text"
+      placeholder="enter keywords..."
+      class="inp"
+      onclick="searchFilter()"
+    />
+    <button style="">
+      <lord-icon
+        src="https://cdn.lordicon.com/msoeawqm.json"
+        trigger="hover"
+        style="width: 30px; height: 30px"
+      >
+      </lord-icon>
+    </button>
+    <br /><br />
     <table>
       <tr>
         <th>User Id</th>
-        <th>IT</th>
+        <th>ID</th>
         <th>Title</th>
         <th>Body</th>
       </tr>
